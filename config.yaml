@@ -1,0 +1,35 @@
+
+GNNModel:
+ hidden_dim: 16
+
+train_model:
+ epochs: 400
+ PrintI: 100
+
+optimizer:
+ lr: 0.01
+ weight_decay: 5e-4
+
+original_graph:
+ interpret_node: 10
+
+Da_na:
+ dataset_name: Cora
+
+partition_k:
+ k_min: 2
+ k_max: 40
+
+clf:
+ a: 0.5
+ b: 0.5
+
+dataset:
+ name: Cora
+ root: ./dataset
+
+OG:
+ node_num: 1000
+
+PG:
+ node_num: 1000
